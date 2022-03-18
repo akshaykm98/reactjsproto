@@ -1,0 +1,13 @@
+<svg enable-background="new 0 0 210 42" version="1.1" viewBox="0 0 42 42" xmlns="http://www.w3.org/2000/svg">
+	<g transform="translate(2.996)">
+		<g>
+			<path class="gray" d="m27.909 3h-3.455l1.633 2.535h-22.181v4.018h28.196l-1.909-2.85z" fill="#194c75" />
+			<g>
+				<path class="dblue" d="m8.099 39h3.455l-1.633-2.535h22.181v-4.018h-28.196l1.909 2.85z" fill="#808184" />
+			</g>
+			<g>
+				<path class="gray" d="m3.906 19.047h21.081v4.018h-21.081z" fill="#194c75" />
+			</g>
+		</g>
+	</g>
+</svg>

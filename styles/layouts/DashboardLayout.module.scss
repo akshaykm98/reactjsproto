@@ -1,0 +1,29 @@
+.dashboardContentLayout {
+    min-height: calc(100vh - 65px);
+    height: calc(100vh - 65px);
+    width: 100vw;
+    display: flex;
+    flex-grow: 1;
+    overflow-x: hidden;
+}
+
+@media (min-width: 880px) {
+    .dashboardContentLayout {
+        max-width: calc(100vw);
+    }
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.layout {
+    height: 100%;
+}
+
+.content {
+    padding: 1.5em 2em;
+    overflow-y: auto;
+    width: 100%;
+    overflow-x: hidden;
+}

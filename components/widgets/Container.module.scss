@@ -1,0 +1,41 @@
+// break points
+$xs: 480px;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1600px;
+//styles
+.container {
+    width: 100%;
+}
+
+@media (min-width: $sm) {
+    .container {
+        max-width: 640px;
+    }
+}
+
+@media (min-width: $md) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media (min-width: $lg) {
+    .container {
+        max-width: 1024px;
+    }
+}
+
+@media (min-width: $xl) {
+    .container {
+        max-width: 1280px;
+    }
+}
+
+@media (min-width: $xxl) {
+    .container {
+        max-width: 1536px;
+    }
+}

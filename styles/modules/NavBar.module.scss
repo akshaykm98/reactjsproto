@@ -1,0 +1,90 @@
+.navBar {
+    background: #1b3745;
+    padding: 0em 0em;
+    height: 65px;
+    display: flex;
+    width: 100vw;
+}
+
+.dashboardLayout {
+    min-height: 65px;
+    display: -ms-grid;
+    display: grid;
+    place-content: center;
+    height: 100%;
+    width: 100vw;
+}
+
+.hFull {
+    height: 100%;
+}
+
+.navContent {
+    width: 100%;
+    padding-right: 1rem;
+    display: flex;
+    // align-items: center;
+    justify-content: space-between;
+    background: white;
+}
+
+.headerSider {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    background: #1b3745;
+    height: 100%;
+    justify-content: center;
+    transition: all ease-in-out 0.2s;
+}
+
+.imsLogo {
+    display: -ms-grid;
+    display: grid;
+}
+
+.right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    background: white;
+}
+
+.logoButton {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-left: 0.75rem;
+    animation: at-ripple 1s ease-in-out infinite;
+}
+
+.bdr-ripple-ani-btn {
+    display: block;
+    background: #fff;
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    border-radius: 100%;
+    box-sizing: border-box;
+    color: #1b3745;
+    overflow: hidden;
+}
+
+@-webkit-keyframes at-ripple {
+    0% {
+        box-shadow: 0 2px 5px #164d742a, 0 0 0 0 #164d742a, 0 0 0 5px #164d742a, 0 0 0 10px #164d742a;
+    }
+    100% {
+        box-shadow: 0 2px 5px #164d742a, 0 0 0 2.5px #164d742a, 0 0 0 10px #164d742a, 0 0 0 10px #ff418200;
+    }
+}
+
+@keyframes at-ripple {
+    0% {
+        box-shadow: 0 2px 5px #164d742a, 0 0 0 0 #164d742a, 0 0 0 2.5px #164d742a, 0 0 0 5px #164d742a;
+    }
+    100% {
+        box-shadow: 0 2px 5px #164d742a, 0 0 0 2.5px #164d742a, 0 0 0 5px #164d742a, 0 0 0 10px #ff418200;
+    }
+}

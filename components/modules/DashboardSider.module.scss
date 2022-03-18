@@ -1,0 +1,21 @@
+.sider {
+    height: calc(100vh - 65px);
+    display: flex;
+    background: #1b3745;
+}
+
+.menu {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    overflow-y: auto;
+    border: 0;
+    position: relative;
+    padding-bottom: 60px;
+    transition: all ease-in-out 0.2s;
+    scrollbar-width: none;
+}
+
+.menu::-webkit-scrollbar {
+    display: none;
+}

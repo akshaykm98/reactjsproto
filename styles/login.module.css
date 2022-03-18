@@ -1,0 +1,34 @@
+.card {
+    
+    display: flex;
+    text-decoration: none; 
+    width: 100%;
+    height: 100%;
+  }
+  .navbar{
+    padding-top: 15px;
+    position: relative;
+    float: right;
+
+  }
+ 
+  .login Form{
+    
+    text-align: center;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 50px;
+    width: 100%;
+    height:750px;
+    
+  }
+  .logCard{
+    height: 750px;
+    width: 950px;
+    background-color: brown;
+  }
+  .imgCard{
+    width: 950px;
+    height: 750px;
+  }
+  

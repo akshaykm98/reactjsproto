@@ -1,0 +1,33 @@
+.navMenu {
+    border: 0;
+    background: white;
+    border-bottom: none !important;
+}
+
+.menuItem {
+    font-weight: 500;
+    font-size: 1.1em;
+    color: #999;
+    height: auto;
+}
+
+.menuItem:hover {
+    color: #388bfe;
+    background: transparent;
+}
+
+.marginActive {
+    margin: 1rem;
+}
+
+.paddingYActive {
+    padding-left: 0.5rem;
+}
+
+.noBorder {
+    border: 0 !important;
+}
+
+.noBorder:hover {
+    border-bottom: none !important;
+}

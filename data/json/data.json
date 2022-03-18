@@ -1,0 +1,1812 @@
+{
+    "navdata": [
+        {
+            "id": 1,
+            "nav": "Home",
+            "url": "/dashboard"
+        },
+        {
+            "id": 2,
+            "nav": "Gateway",
+            "url": "/gateway"
+        },
+        {
+            "id": 3,
+            "nav": "Payments",
+            "url": "/payments"
+        },
+        {
+            "id": 4,
+            "nav": "Reports",
+            "url": "/reports"
+        },
+        {
+            "id": 5,
+            "nav": "Reconcilation",
+            "url": "/reconcilation"
+        }
+    ],
+
+    
+
+    "us": {
+        "menudata": [
+            {
+                "title": "Home",
+                "key": "home",
+                "icon": "AiFillHome",
+                "link": "/dashboard"
+            },
+            {
+                "title": "Pre Process",
+                "key": "pre_process",
+                "icon": "CgTimelapse",
+                "items": [
+                    {
+                        "title": "New Request",
+                        "key": "pre_process-newrequest",
+                        "items": [{
+                                "title": "Manual Entry",
+                                "key": "pre_process-newrequest-manualentry"
+                            },
+                            {
+                                "title": "Smart Form",
+                                "key": "pre_process-newrequest-smartform"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Integrated Files",
+                        "key": "pre_process-integratedfiles",
+                        "items": [{
+                            "title": "Files",
+                            "key": "pre_process-integratedfiles-files"
+                        }]
+                    },
+                    {
+                        "title": "Mandate Management",
+                        "key": "pre_process-manadatemanagement",
+                        "link": "/dashboard/mandate_mgmt"
+                    }
+                ]
+            },
+            {
+                "title": "Outbound",
+                "key": "outbound",
+                "icon": "FaExpandArrowsAlt",
+                "items": [
+                    {
+                        "title": "ACH",
+                        "key": "outbound-ach"
+                    },
+                    {
+                        "title": "Consent Management",
+                        "key": "outbound-consentmanagemnt"
+                    },
+                    {
+                        "title": "Fedwire",
+                        "key": "outbound-fedwire",
+                        "items": [
+                            {
+                            "title": "Outgoing CTR",
+                            "key": "outbound-fedwire-outgoing_ctr",
+                            "link": "/dashboard/out_fedwire/outboundFedwireOutgoing_ctr"
+                        }]
+                    },
+                    {
+                        "title": "RTP",
+                        "key": "outbound-rtp",
+                        "items": [{
+                                "title": "Credit Transfer",
+                                "key": "outbound-rtp-credittransfer"
+                            },
+                            {
+                                "title": "Pay by Proxy",
+                                "key": "outbound-rtp-paybyproxy"
+                            },
+                            {
+                                "title": "QR",
+                                "key": "outbound-rtp-qr"
+                            },
+                            {
+                                "title": "Request to Pay",
+                                "key": "outbound-rtp-requesttopay"
+                            },
+                            {
+                                "title": "Real Time Debit",
+                                "key": "outbound-rtp-realtimedebit"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Roxe",
+                        "key": "outbound-roxe"
+                    },
+                    {
+                        "title": "RTGS",
+                        "key": "outbound-rtgs"
+                    },
+                    {
+                        "title": "SWIFT",
+                        "key": "outbound-swift"
+                    },
+                    {
+                        "title": "RIPPLE",
+                        "key": "outbound-ripple"
+                    }
+                ]
+            },
+            {
+                "title": "Inbound",
+                "key": "inbound",
+                "icon": "FaCompressArrowsAlt",
+                "items": [
+                    {
+                        "title": "ACH",
+                        "key": "inbound-ach"
+                    },
+                    {
+                        "title": "Consent Management",
+                        "key": "inbound-consentmanagemnt"
+                    },
+                    {
+                        "title": "RTP",
+                        "key": "inbound-rtp",
+                        "items": [{
+                                "title": "Credit Transfer",
+                                "key": "inbound-rtp-credittransfer"
+                            },
+                            {
+                                "title": "Pay by Proxy",
+                                "key": "inbound-rtp-paybyproxy"
+                            },
+                            {
+                                "title": "QR",
+                                "key": "inbound-rtp-qr"
+                            },
+                            {
+                                "title": "Request to Pay",
+                                "key": "inbound-rtp-requesttopay"
+                            },
+                            {
+                                "title": "Real Time Debit",
+                                "key": "inbound-rtp-realtimedebit"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Roxe",
+                        "key": "inbound-roxe"
+                    },
+                    {
+                        "title": "RTGS",
+                        "key": "inbound-rtgs"
+                    },
+                    {
+                        "title": "SWIFT",
+                        "key": "inbound-swift"
+                    },
+                    {
+                        "title": "RIPPLE",
+                        "key": "inbound-ripple"
+                    }
+                ]
+            },
+            {
+                "title": "Post process",
+                "key": "post_process",
+                "icon": "RiMailSettingsFill",
+                "items ": [
+                    {
+                        "title": "New Request",
+                        "key": "post_process-newrequest",
+                        "items": [{
+                            "title": "Manual Entry",
+                            "key": "post_process-manualentry"
+                        }]
+                    },
+                    {
+                        "title": "Messages",
+                        "key": "post_process-messages"
+                    },
+                    {
+                        "title": "Transaction Queries",
+                        "key": "post_process-transactionqueries"
+                    },
+                    {
+                        "title": "Positions",
+                        "key": "post_process-positions"
+                    },
+                    {
+                        "title": "Statements",
+                        "key": "post_process-statements"
+                    },
+                    {
+                        "title": "Reconcilations",
+                        "key": "post_process-reconcilations",
+                        "items": [{
+                            "title": "Received",
+                            "key": "post_process-received"
+                        }]
+                    },
+                    {
+                        "title": "Investigation",
+                        "key": "post_process-investigation"
+                    },
+                    {
+                        "title": "Reports",
+                        "key": "post_process-reports"
+                    }
+                ]
+            },
+            {
+                "title": "Administrator",
+                "key": "administrator",
+                "icon": "MdAdminPanelSettings",
+                "items": [
+                    {
+                        "title": "Settings",
+                        "key": "administartor-settings"
+                    },
+                    {
+                        "title": "Reference Data",
+                        "key": "administrator-referencedata"
+                    }
+                ]
+            }
+        ],
+        "pageDetails": {
+            "outbound": {
+                "fedwire": {
+                    "outboundFedwireOutgoing_ctr": [
+                        {
+                            "title": "Receive From",
+                            "key": "fedwire-receive_from",
+                            "icon": "ImArrowDownLeft2",
+                            "color": "green",
+                            "total": 550,
+                            "details": [
+                                {
+                                    "title": "Manual Entry",
+                                    "key": "out_fedwire_manualEntry",
+                                    "count": "50",
+                                    "icon": "BiCalendarEdit"
+                                },
+                                {
+                                    "title": "Channel",
+                                    "key": "out_fedwire_channel",
+                                    "count": "55",
+                                    "icon": "FaNetworkWired"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Internal Controls",
+                            "key": "fedwire-internal_controls",
+                            "icon": "AiOutlinePlayCircle",
+                            "color": "black",
+                            "total": 550,
+                            "details": [
+                                {
+                                    "title": "Level 1 Approval",
+                                    "key": "out_fedwire_level1Approval",
+                                    "count": "52",
+                                    "icon": "GrSteps",
+                                    "url": "/dashboard/out_fedwire/outboundFedwireOutgoing_ctr/lvl1apprvl",
+                                    "data": {
+                                        "columns": [{
+                                                "title": "No",
+                                                "dataIndex": "No",
+                                                "key": "No",
+                                                "align": "center",
+                                                "fixed": "left",
+                                                "url": "/dashboard/out_fedwire/outboundFedwireOutgoing_ctr/lvl1apprvl/detailpage"
+                                            },
+                                            {
+                                                "title": "MT",
+                                                "dataIndex": "mt",
+                                                "key": "mt",
+                                                "align": "center",
+                                                "url": "/dashboard/out_fedwire/outboundFedwireOutgoing_ctr/lvl1apprvl/detailpage"
+                                            },
+                                            {
+                                                "title": "Type Subtype",
+                                                "dataIndex": "type_subtype",
+                                                "key": "type_subtype",
+                                                "align": "center",
+                                                "url": "/dashboard/out_fedwire/outboundFedwireOutgoing_ctr/lvl1apprvl/detailpage"
+                                            },
+                                            {
+                                                "title": "Request Id",
+                                                "dataIndex": "request_id",
+                                                "key": "request_id",
+                                                "align": "center",
+                                                "url": "/dashboard/out_fedwire/outboundFedwireOutgoing_ctr/lvl1apprvl/detailpage"
+                                            },
+                                            {
+                                                "title": "Status",
+                                                "dataIndex": "status",
+                                                "key": "status",
+                                                "align": "center",
+                                                "url": "/dashboard/out_fedwire/outboundFedwireOutgoing_ctr/lvl1apprvl/detailpage"
+                                            },
+
+                                            {
+                                                "title": "Comment",
+                                                "dataIndex": "comment",
+                                                "key": "comment",
+                                                "align": "center",
+                                                "url": "/dashboard/out_fedwire/outboundFedwireOutgoing_ctr/lvl1apprvl/detailpage"
+                                            }
+                                        ],
+                                        "dataSource": [{
+                                                "key": "1",
+                                                "No": "1",
+                                                "mt": "FTD811-CTR",
+                                                "type_subtype": "1000",
+                                                "request_id": "1",
+                                                "status": "APPROVE",
+                                                "comment": "transactions queued for level 1 approval action",
+                                                "url": "/dashboard/out_fedwire/outboundFedwireOutgoing_ctr/lvl1apprvl/detailpage"
+                                            },
+                                            {
+                                                "key": "2",
+                                                "No": "2",
+                                                "mt": "FTD811-CTR",
+                                                "type_subtype": "1000",
+                                                "request_id": "2",
+                                                "status": "APPROVE",
+                                                "comment": "transactions queued for level 1 approval action",
+                                                "url": "/dashboard/out_fedwire/outboundFedwireOutgoing_ctr/lvl1apprvl/detailpage"
+                                            },
+                                            {
+                                                "key": "3",
+                                                "No": "3",
+                                                "mt": "FTD811-CTR",
+                                                "type_subtype": "1000",
+                                                "request_id": "3",
+                                                "status": "APPROVE",
+                                                "comment": "transactions queued for level 1 approval action",
+                                                "url": "/dashboard/out_fedwire/outboundFedwireOutgoing_ctr/lvl1apprvl/detailpage"
+                                            },
+                                            {
+                                                "key": "4",
+                                                "No": "4",
+                                                "mt": "FTD811-CTR",
+                                                "type_subtype": "1000",
+                                                "request_id": "4",
+                                                "status": "APPROVE",
+                                                "comment": "transactions queued for level 1 approval action",
+                                                "url": "/dashboard/out_fedwire/outboundFedwireOutgoing_ctr/lvl1apprvl/detailpage"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "title": "Level 2 Approval",
+                                    "key": "out_fedwire_level2Approval",
+                                    "count": "53",
+                                    "icon": "GrSteps",
+                                    "url": "/dashboard/out_fedwire/outboundFedwireOutgoing_ctr/lvl2apprvl",
+                                    "data": {
+                                        "columns": [{
+                                                "title": "No",
+                                                "dataIndex": "No",
+                                                "key": "No",
+                                                "align": "center",
+                                                "fixed": "left"
+                                            },
+                                            {
+                                                "title": "MT",
+                                                "dataIndex": "mt",
+                                                "key": "mt",
+                                                "align": "center"
+                                            },
+                                            {
+                                                "title": "Type Subtype",
+                                                "dataIndex": "type_subtype",
+                                                "key": "type_subtype",
+                                                "align": "center"
+                                            },
+                                            {
+                                                "title": "Reference",
+                                                "dataIndex": "reference",
+                                                "key": "reference",
+                                                "align": "center"
+                                            },
+                                            {
+                                                "title": "Request Id",
+                                                "dataIndex": "request_id",
+                                                "key": "request_id",
+                                                "align": "center"
+                                            },
+                                            {
+                                                "title": "Status",
+                                                "dataIndex": "status",
+                                                "key": "status",
+                                                "align": "center"
+                                            },
+
+                                            {
+                                                "title": "Comment",
+                                                "dataIndex": "comment",
+                                                "key": "comment",
+                                                "align": "center"
+                                            },
+                                            {
+                                                "title": "Actions",
+                                                "dataIndex": "actions",
+                                                "key": "actions",
+                                                "align": "center"
+                                            },
+                                            {
+                                                "title": "Messages to be Linked",
+                                                "key": "message_to_be_linked",
+                                                "dataIndex": "message_to_be_linked",
+                                                "align": "center"
+                                            }
+                                        ],
+                                        "dataSource": [{
+                                                "key": "1",
+                                                "No": "1",
+                                                "mt": "FTD811-CTR",
+                                                "type_subtype": "1000",
+                                                "reference": "",
+                                                "request_id": "",
+                                                "status": "APPROVE",
+                                                "comment": "transactions queued for level 2 approval action",
+                                                "actions": "Approve/Reject",
+                                                "message_to_be_linked": ""
+                                            },
+                                            {
+                                                "key": "2",
+                                                "No": "2",
+                                                "mt": "FTD811-CTR",
+                                                "type_subtype": "1000",
+                                                "reference": "",
+                                                "request_id": "",
+                                                "status": "APPROVE",
+                                                "comment": "transactions queued for level 2 approval action",
+                                                "actions": "Approve/Reject",
+                                                "message_to_be_linked": ""
+                                            },
+                                            {
+                                                "key": "3",
+                                                "No": "3",
+                                                "mt": "FTD811-CTR",
+                                                "type_subtype": "1000",
+                                                "reference": "",
+                                                "request_id": "",
+                                                "status": "APPROVE",
+                                                "comment": "transactions queued for level 2 approval action",
+                                                "actions": "Approve/Reject",
+                                                "message_to_be_linked": ""
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "title": "Possible Duplicate Queue",
+                                    "key": "out_fedwire_possibleDuplicateQueue",
+                                    "count": "53",
+                                    "icon": "HiOutlineDocumentDuplicate",
+                                    "url": "/dashboard/out_fedwire/outboundFedwireOutgoing_ctr/possible_duplicate_queue",
+                                    "data": {
+                                        "columns": [{
+                                                "title": "No",
+                                                "dataIndex": "No",
+                                                "key": "No",
+                                                "align": "center",
+                                                "fixed": "left"
+                                            },
+                                            {
+                                                "title": "MT",
+                                                "dataIndex": "mt",
+                                                "key": "mt",
+                                                "align": "center"
+                                            },
+                                            {
+                                                "title": "Type Subtype",
+                                                "dataIndex": "type_subtype",
+                                                "key": "type_subtype",
+                                                "align": "center"
+                                            },
+                                            {
+                                                "title": "Reference",
+                                                "dataIndex": "reference",
+                                                "key": "reference",
+                                                "align": "center"
+                                            },
+                                            {
+                                                "title": "Request Id",
+                                                "dataIndex": "request_id",
+                                                "key": "request_id",
+                                                "align": "center"
+                                            },
+                                            {
+                                                "title": "Status",
+                                                "dataIndex": "status",
+                                                "key": "status",
+                                                "align": "center"
+                                            },
+
+                                            {
+                                                "title": "Comment",
+                                                "dataIndex": "comment",
+                                                "key": "comment",
+                                                "align": "center"
+                                            },
+                                            {
+                                                "title": "Actions",
+                                                "dataIndex": "actions",
+                                                "key": "actions",
+                                                "align": "center"
+                                            },
+                                            {
+                                                "title": "Messages to be Linked",
+                                                "key": "message_to_be_linked",
+                                                "dataIndex": "message_to_be_linked",
+                                                "align": "center"
+                                            }
+                                        ],
+                                        "dataSource": [{
+                                                "key": "1",
+                                                "No": "1",
+                                                "mt": "FTD811-CTR",
+                                                "type_subtype": "1000",
+                                                "reference": "",
+                                                "request_id": "3",
+                                                "status": "DUPLICATE",
+                                                "comment": "Duplicate Detected",
+                                                "actions": "Accept/Reject",
+                                                "message_to_be_linked": ""
+                                            },
+                                            {
+                                                "key": "2",
+                                                "No": "2",
+                                                "mt": "FTD811-CTR",
+                                                "type_subtype": "1000",
+                                                "reference": "",
+                                                "request_id": "4",
+                                                "status": "DUPLICATE",
+                                                "comment": "Duplicate Detected",
+                                                "actions": "Accept/Reject",
+                                                "message_to_be_linked": ""
+                                            },
+                                            {
+                                                "key": "3",
+                                                "No": "3",
+                                                "mt": "FTD811-CTR",
+                                                "type_subtype": "1000",
+                                                "reference": "",
+                                                "request_id": "5",
+                                                "status": "DUPLICATE",
+                                                "comment": "Duplicate Detected",
+                                                "actions": "Accept/Reject",
+                                                "message_to_be_linked": ""
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "title": "Compliance Alert",
+                                    "key": "out_fedwire_complianceAlert",
+                                    "count": "53",
+                                    "icon": "AiOutlineAlert",
+                                    "url": "/dashboard/out_fedwire/outboundFedwireOutgoing_ctr/compliance_alert",
+                                    "data": {
+                                        "columns": [{
+                                                "title": "No",
+                                                "dataIndex": "No",
+                                                "key": "No",
+                                                "align": "center",
+                                                "fixed": "left"
+                                            },
+                                            {
+                                                "title": "MT",
+                                                "dataIndex": "mt",
+                                                "key": "mt",
+                                                "align": "center"
+                                            },
+                                            {
+                                                "title": "Type Subtype",
+                                                "dataIndex": "type_subtype",
+                                                "key": "type_subtype",
+                                                "align": "center"
+                                            },
+                                            {
+                                                "title": "Reference",
+                                                "dataIndex": "reference",
+                                                "key": "reference",
+                                                "align": "center"
+                                            },
+                                            {
+                                                "title": "Request Id",
+                                                "dataIndex": "request_id",
+                                                "key": "request_id",
+                                                "align": "center"
+                                            },
+                                            {
+                                                "title": "Status",
+                                                "dataIndex": "status",
+                                                "key": "status",
+                                                "align": "center"
+                                            },
+
+                                            {
+                                                "title": "Comment",
+                                                "dataIndex": "comment",
+                                                "key": "comment",
+                                                "align": "center"
+                                            },
+                                            {
+                                                "title": "Actions",
+                                                "dataIndex": "actions",
+                                                "key": "actions",
+                                                "align": "center"
+                                            },
+                                            {
+                                                "title": "Messages to be Linked",
+                                                "key": "message_to_be_linked",
+                                                "dataIndex": "message_to_be_linked",
+                                                "align": "center"
+                                            }
+                                        ],
+                                        "dataSource": [{
+                                                "key": "1",
+                                                "No": "1",
+                                                "mt": "FTD811-CTR",
+                                                "type_subtype": "1000",
+                                                "reference": "",
+                                                "request_id": "3",
+                                                "status": "NON COMPLIANT",
+                                                "comment": "Compliance alert",
+                                                "message_to_be_linked": ""
+                                            },
+                                            {
+                                                "key": "2",
+                                                "No": "2",
+                                                "mt": "FTD811-CTR",
+                                                "type_subtype": "1000",
+                                                "reference": "",
+                                                "request_id": "4",
+                                                "status": "NON COMPLIANT",
+                                                "comment": "Compliance alert",
+                                                "actions": "Accept/Reject",
+                                                "message_to_be_linked": ""
+                                            },
+                                            {
+                                                "key": "3",
+                                                "No": "3",
+                                                "mt": "FTD811-CTR",
+                                                "type_subtype": "1000",
+                                                "reference": "",
+                                                "request_id": "5",
+                                                "status": "NON COMPLIANT",
+                                                "comment": "Compliance alert",
+                                                "actions": "Accept/Reject",
+                                                "message_to_be_linked": ""
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "title": "Pending Investigation",
+                                    "key": "out_fedwire_pendingInvestigation",
+                                    "count": "53",
+                                    "icon": "MdPendingActions",
+                                    "url": "/dashboard/out_fedwire/outboundFedwireOutgoing_ctr/pending_investigation",
+                                    "data": {
+                                        "columns": [{
+                                                "title": "No",
+                                                "dataIndex": "No",
+                                                "key": "No",
+                                                "align": "center",
+                                                "fixed": "left"
+                                            },
+                                            {
+                                                "title": "MT",
+                                                "dataIndex": "mt",
+                                                "key": "mt",
+                                                "align": "center"
+                                            },
+                                            {
+                                                "title": "Type Subtype",
+                                                "dataIndex": "type_subtype",
+                                                "key": "type_subtype",
+                                                "align": "center"
+                                            },
+                                            {
+                                                "title": "Reference",
+                                                "dataIndex": "reference",
+                                                "key": "reference",
+                                                "align": "center"
+                                            },
+                                            {
+                                                "title": "Request Id",
+                                                "dataIndex": "request_id",
+                                                "key": "request_id",
+                                                "align": "center"
+                                            },
+                                            {
+                                                "title": "Status",
+                                                "dataIndex": "status",
+                                                "key": "status",
+                                                "align": "center"
+                                            },
+
+                                            {
+                                                "title": "Comment",
+                                                "dataIndex": "comment",
+                                                "key": "comment",
+                                                "align": "center"
+                                            },
+                                            {
+                                                "title": "Actions",
+                                                "dataIndex": "actions",
+                                                "key": "actions",
+                                                "align": "center"
+                                            },
+                                            {
+                                                "title": "Messages to be Linked",
+                                                "key": "message_to_be_linked",
+                                                "dataIndex": "message_to_be_linked",
+                                                "align": "center"
+                                            }
+                                        ],
+                                        "dataSource": [{
+                                                "key": "1",
+                                                "No": "1",
+                                                "mt": "FTD811-CTR",
+                                                "type_subtype": "1000",
+                                                "reference": "",
+                                                "request_id": "3",
+                                                "status": "STAGING",
+                                                "comment": "",
+                                                "actions": "",
+                                                "message_to_be_linked": ""
+                                            },
+                                            {
+                                                "key": "2",
+                                                "No": "2",
+                                                "mt": "FTD811-CTR",
+                                                "type_subtype": "1000",
+                                                "reference": "",
+                                                "request_id": "4",
+                                                "status": "STAGING",
+                                                "comment": "",
+                                                "actions": "",
+                                                "message_to_be_linked": ""
+                                            },
+                                            {
+                                                "key": "3",
+                                                "No": "3",
+                                                "mt": "FTD811-CTR",
+                                                "type_subtype": "1000",
+                                                "reference": "",
+                                                "request_id": "5",
+                                                "status": "STAGING",
+                                                "comment": "",
+                                                "actions": "",
+                                                "message_to_be_linked": ""
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "title": "Rejected",
+                                    "key": "out_fedwire_rejected",
+                                    "count": "53",
+                                    "icon": "RiChatDeleteLine",
+                                    "url": "/dashboard/out_fedwire/outboundFedwireOutgoing_ctr/rejected",
+                                    "color": "red",
+                                    "data": {
+                                        "columns": [{
+                                                "title": "No",
+                                                "dataIndex": "No",
+                                                "key": "No",
+                                                "align": "center",
+                                                "fixed": "left"
+                                            },
+                                            {
+                                                "title": "MT",
+                                                "dataIndex": "mt",
+                                                "key": "mt",
+                                                "align": "center"
+                                            },
+                                            {
+                                                "title": "Type Subtype",
+                                                "dataIndex": "type_subtype",
+                                                "key": "type_subtype",
+                                                "align": "center"
+                                            },
+                                            {
+                                                "title": "Reference",
+                                                "dataIndex": "reference",
+                                                "key": "reference",
+                                                "align": "center"
+                                            },
+                                            {
+                                                "title": "Request Id",
+                                                "dataIndex": "request_id",
+                                                "key": "request_id",
+                                                "align": "center"
+                                            },
+                                            {
+                                                "title": "Status",
+                                                "dataIndex": "status",
+                                                "key": "status",
+                                                "align": "center"
+                                            },
+
+                                            {
+                                                "title": "Comment",
+                                                "dataIndex": "comment",
+                                                "key": "comment",
+                                                "align": "center"
+                                            },
+                                            {
+                                                "title": "Actions",
+                                                "dataIndex": "actions",
+                                                "key": "actions",
+                                                "align": "center"
+                                            },
+                                            {
+                                                "title": "Messages to be Linked",
+                                                "key": "message_to_be_linked",
+                                                "dataIndex": "message_to_be_linked",
+                                                "align": "center"
+                                            }
+                                        ],
+                                        "dataSource": [{
+                                                "key": "1",
+                                                "No": "1",
+                                                "mt": "FTD811-CTR",
+                                                "type_subtype": "1000",
+                                                "reference": "",
+                                                "request_id": "3",
+                                                "status": "REJECTED",
+                                                "comment": "Rejected by operation user/internal reject",
+                                                "actions": "",
+                                                "message_to_be_linked": ""
+                                            },
+                                            {
+                                                "key": "2",
+                                                "No": "2",
+                                                "mt": "FTD811-CTR",
+                                                "type_subtype": "1000",
+                                                "reference": "",
+                                                "request_id": "4",
+                                                "status": "REJECTED",
+                                                "comment": "Rejected by operation user/internal reject",
+                                                "actions": "",
+                                                "message_to_be_linked": ""
+                                            },
+                                            {
+                                                "key": "3",
+                                                "No": "3",
+                                                "mt": "FTD811-CTR",
+                                                "type_subtype": "1000",
+                                                "reference": "",
+                                                "request_id": "5",
+                                                "status": "REJECTED",
+                                                "comment": "Rejected by operation user/internal reject",
+                                                "actions": "",
+                                                "message_to_be_linked": ""
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Track Status",
+                            "key": "fedwire-track_status",
+                            "icon": "HiStatusOnline",
+                            "color": "#4169e1",
+                            "total": 550,
+                            "details": [
+                                {
+                                    "title": "Transmitted",
+                                    "key": "out_fedwire_transmitted",
+                                    "count": "52",
+                                    "icon": "AiOutlinePlayCircle"
+                                },
+                                {
+                                    "title": "Pending Settlement",
+                                    "key": "out_fedwire_pendingSettlement",
+                                    "count": "53",
+                                    "icon": "AiOutlinePlayCircle"
+                                },
+                                {
+                                    "title": "Acknowledged",
+                                    "key": "out_fedwire_acknowledged",
+                                    "count": "53",
+                                    "icon": "AiOutlinePlayCircle"
+                                },
+                                {
+                                    "title": "Settled",
+                                    "key": "out_fedwire_settled",
+                                    "count": "53",
+                                    "icon": "AiOutlinePlayCircle"
+                                },
+                                {
+                                    "title": "Returned",
+                                    "key": "out_fedwire_returned",
+                                    "count": "53",
+                                    "icon": "AiOutlinePlayCircle"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Exceptions",
+                            "key": "fedwire-exceptions",
+                            "icon": "ImWarning",
+                            "color": "red",
+                            "total": 550,
+                            "details": [
+                                {
+                                    "title": "Transformation Failures",
+                                    "key": "out_fedwire_transformationFailures",
+                                    "count": "52",
+                                    "icon": "AiOutlinePlayCircle",
+                                    "color": "red"
+                                },
+                                {
+                                    "title": "Transmission Failures",
+                                    "key": "out_fedwire_transmissionFailures",
+                                    "count": "53",
+                                    "icon": "AiOutlinePlayCircle",
+                                    "color": "red"
+                                },
+                                {
+                                    "title": "Duplicate Failures",
+                                    "key": "out_fedwire_duplicateFailures",
+                                    "count": "53",
+                                    "icon": "AiOutlinePlayCircle",
+                                    "color": "red"
+                                },
+                                {
+                                    "title": "Compliance Failures",
+                                    "key": "out_fedwire_complianceFailures",
+                                    "count": "53",
+                                    "icon": "AiOutlinePlayCircle",
+                                    "color": "red"
+                                },
+                                {
+                                    "title": "Nacked Message",
+                                    "key": "out_fedwire_nackedMessage",
+                                    "count": "53",
+                                    "icon": "AiOutlinePlayCircle",
+                                    "color": "red"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "inbound": {
+                "fedwire": {
+                    "inboundFedwireIncoming_ctr": [{
+                            "title": "Receive From",
+                            "key": "fedwire-receive_from",
+                            "icon": "AiOutlinePlayCircle",
+                            "color": "red",
+                            "total": 550,
+                            "details": [{
+                                "title": "Fedline Direct",
+                                "key": "in_fedwire_fedlineDirect",
+                                "count": "52",
+                                "icon": "AiOutlinePlayCircle"
+                            }]
+                        },
+                        {
+                            "title": "Internal Controls",
+                            "key": "fedwire-internal_controls",
+                            "icon": "AiOutlinePlayCircle",
+                            "color": "red",
+                            "total": 550,
+                            "details": [{
+                                    "title": "Level 1 Approval",
+                                    "key": "in_fedwire_level1Approval",
+                                    "count": "52",
+                                    "icon": "AiOutlinePlayCircle"
+                                },
+                                {
+                                    "title": "Level 2 Approval",
+                                    "key": "in_fedwire_level2Approval",
+                                    "count": "53"
+                                },
+                                {
+                                    "title": "Possible Duplicate Queue",
+                                    "key": "in_fedwire_possibleDuplicateQueue",
+                                    "count": "53",
+                                    "icon": "AiOutlinePlayCircle"
+                                },
+                                {
+                                    "title": "Compliance Alert",
+                                    "key": "in_fedwire_complianceAlert",
+                                    "count": "53",
+                                    "icon": "AiOutlinePlayCircle"
+                                },
+                                {
+                                    "title": "Pending Investigation",
+                                    "key": "in_fedwire_pendingInvestigation",
+                                    "count": "53",
+                                    "icon": "AiOutlinePlayCircle"
+                                },
+                                {
+                                    "title": "Rejected",
+                                    "key": "out_fedwire_rejected",
+                                    "count": "53",
+                                    "icon": "AiOutlinePlayCircle"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Track Status",
+                            "key": "fedwire-track_status",
+                            "icon": "AiOutlinePlayCircle",
+                            "color": "red",
+                            "total": 550,
+                            "details": [{
+                                    "title": "Delivered to CBS",
+                                    "key": "out_fedwire_deliveredToCBS",
+                                    "count": "52",
+                                    "icon": "AiOutlinePlayCircle"
+                                },
+                                {
+                                    "title": "Pending Settlement",
+                                    "key": "in_fedwire_pendingSettlement",
+                                    "count": "53",
+                                    "icon": "AiOutlinePlayCircle"
+                                },
+                                {
+                                    "title": "Settled",
+                                    "key": "in_fedwire_settled",
+                                    "count": "53",
+                                    "icon": "AiOutlinePlayCircle"
+                                },
+                                {
+                                    "title": "Returned",
+                                    "key": "in_fedwire_returned",
+                                    "count": "53",
+                                    "icon": "AiOutlinePlayCircle"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Exceptions",
+                            "key": "fedwire-exceptions",
+                            "icon": "AiOutlinePlayCircle",
+                            "color": "red",
+                            "total": 550,
+                            "details": [{
+                                    "title": "Transmission Failures",
+                                    "key": "in_fedwire_transmissionFailures",
+                                    "count": "53",
+                                    "icon": "AiOutlinePlayCircle"
+                                },
+                                {
+                                    "title": "Duplicate Failures",
+                                    "key": "in_fedwire_duplicateFailures",
+                                    "count": "53",
+                                    "icon": "AiOutlinePlayCircle"
+                                },
+                                {
+                                    "title": "Compliance Failures",
+                                    "key": "in_fedwire_complianceFailures",
+                                    "count": "53",
+                                    "icon": "AiOutlinePlayCircle"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+
+    
+
+"detailpagedata":[
+    {
+      "title":"Submitted Details",
+      "key":"submitted-details",
+      "details":[
+        {
+          "key":"origin",
+          "title":"origin",
+          "details":{
+            "title":"BOAUS001",
+            "key":"origin_detail"
+          }
+        },
+        {
+          "key":"destination",
+          "title":"Destination",
+          "details":{
+            "title":"CITIUS744",
+            "key":"transaction_detail"
+          }
+        },
+        {
+          "key":"total_debit",
+          "title":"Total Debit",
+          "details":{
+            "title":"Amount 50.00",
+            "key":"total_debit_detail"
+          }
+        },
+        {
+          "key":"total_credit_amount",
+          "title":"Total Credit Amount",
+          "details":{
+            "title":"50.00",
+            "key":"total_credit_amount_detail"
+          }
+        },
+        {
+          "key":"mt",
+          "title":"MT",
+          "details":{
+            "title":"RCCT.001",
+            "key":"MT_detail"
+          }
+        },
+        {
+          "key":"txn_date",
+          "title":"TXN Date",
+          "details":{
+            "title":"20210518",
+            "key":"txn_date_detail"
+          }
+        }
+      ]
+    },
+    {
+      "title":"Batch Details",
+      "key":"batch-details",
+      "details":[
+        {
+          "key":"batch_no",
+          "title":"Batch No",
+          "details":{
+            "title":"",
+            "key":""
+          }
+        },
+        {
+          "key":"debit_amount",
+          "title":"Debit Amount",
+          "details":{
+            "title":"",
+            "key":""
+          }
+        },
+        {
+          "key":"msg_id",
+          "title":"Msg Id",
+          "details":{
+            "title":"",
+            "key":""
+          }
+        },
+        {
+          "key":"bank_name",
+          "title":"Bank Name",
+          "details":{
+            "title":"",
+            "key":""
+          }
+        },
+        {
+          "key":"credit_amount",
+          "title":"Credit Amount",
+          "details":{
+            "title":"",
+            "key":""
+          }
+        },
+        {
+          "key":"creation_date&time",
+          "title":"Creation Date & Time",
+          "details":{
+            "title":"",
+            "key":""
+          }
+        }
+      ]
+    },
+    {
+        "title":"Transaction Details",
+        "key":"transaction-details",
+        "details":[
+          {
+            "key":"file_name",
+            "title":"File Name",
+            "details":{
+              "title":"20210518ECSFUS300100211",
+              "key":"file_name_detail"
+            }
+          },
+          {
+            "key":"message_type",
+            "title":"Message Type",
+            "details":{
+              "title":"RCCT.001",
+              "key":"message_type_details"
+            }
+          },
+          {
+            "key":"local_instrument_prty",
+            "title":"Local Instrument Prty",
+            "details":{
+              "title":"",
+              "key":""
+            }
+          },
+          {
+            "key":"transaction_id",
+            "title":"Transaction Id",
+            "details":{
+              "title":"20210518ECSFUS30010211",
+              "key":"transaction_id_details"
+            }
+          },
+          {
+            "key":"charge_beared",
+            "title":"Charge Beared",
+            "details":{
+              "title":"Debt",
+              "key":"charge_beared_details"
+            }
+          },
+          {
+            "key":"original_end_to_end_id",
+            "title":"Original End to End Id",
+            "details":{
+              "title":"",
+              "key":""
+            }
+          },
+          {
+            "key":"end_to_end_id",
+            "title":"End to End Id",
+            "details":{
+              "title":"",
+              "key":"end_to_end_id_details"
+            }
+          },
+          {
+            "key":"destination_owner",
+            "title":"Destination Owner",
+            "details":{
+              "title":"",
+              "key":""
+            }
+          },
+          {
+            "key":"reference",
+            "title":"Reference",
+            "details":{
+              "title":"",
+              "key":""
+            }
+          },
+          {
+            "key":"instruction_id",
+            "title":"Instruction Id",
+            "details":{
+              "title":"",
+              "key":""
+            }
+          },
+          {
+            "key":"interbank_settlement_date",
+            "title":"Interbank Settlement Date",
+            "details":{
+              "title":"",
+              "key":""
+            }
+          },
+          {
+            "key":"interbank_settlement_amount",
+            "title":"Interbank Settlement Amount",
+            "details":{
+              "title":"",
+              "key":""
+            }
+          },
+          {
+            "key":"original_instr_id",
+            "title":"Original Instr Id",
+            "details":{
+              "title":"",
+              "key":""
+            }
+          },
+          {
+            "key":"return_id",
+            "title":"Return Id",
+            "details":{
+              "title":"",
+              "key":""
+            }
+          },
+          {
+            "key":"source_owner",
+            "title":"Source Owner",
+            "details":{
+              "title":"",
+              "key":""
+            }
+          },
+          {
+            "key":"remittance_info",
+            "title":"Remittance Info",
+            "details":{
+              "title":"",
+              "key":""
+            }
+          },
+          {
+            "key":"sender_reference",
+            "title":"Sender Reference",
+            "details":{
+              "title":"20220107R365327",
+              "key":"sender_reference_detail"
+            }
+          },
+          {
+            "key":"previous_message_identifier",
+            "title":"Previous Message Identifier",
+            "details":{
+              "title":"20220107",
+              "key":"previous_message_identifier_detail"
+            }
+          },
+          {
+            "key":"exchange_rate",
+            "title":"Exchange Rate",
+            "details":{
+              "title":"1,234",
+              "key":"exchange_rate_detail"
+            }
+          },
+          {
+            "key":"method_of_payment",
+            "title":"Method of Payment",
+            "details":{
+              "title":"CHECK",
+              "key":"method_of_payment_detail"
+            }
+          }
+        ]
+    },
+    {
+        "title":"Creditor Details",
+            "key":"creditor-details",
+            "details":[
+              {
+                "key":"agent_name",
+                "title":"Agent Name",
+                "details":{
+                  "title":"Gold Bank",
+                  "key":"gold_bank"
+                }
+              },
+        {
+                "key":"agent_account_id",
+                "title":"Agent Account Id",
+                "details":{
+                  "title":"",
+                  "key":""
+                }
+              },
+        {
+                "key":"account_id_country",
+                "title":"Account Id Country",
+                "details":{
+                  "title":"",
+                  "key":""
+                }
+              },
+        {
+                "key":"town_name",
+                "title":"Town Name",
+                "details":{
+                  "title":"",
+                  "key":""
+                }
+              },
+        {
+                "key":"customer_type",
+                "title":"Customer Type",
+                "details":{
+                  "title":"",
+                  "key":""
+                }
+              },
+        {
+                "key":"bic",
+                "title":"BIC",
+                "details":{
+                  "title":"",
+                  "key":""
+                }
+              },
+        {
+                "key":"remarks",
+                "title":"Remarks",
+                "details":{
+                  "title":"",
+                  "key":""
+                }
+              },
+        {
+                "key":"agent_bicfi",
+                "title":"Agent BICFI",
+                "details":{
+                  "title":"",
+                  "key":""
+                }
+              },
+        {
+                "key":"name",
+                "title":"Name",
+                "details":{
+                  "title":"EXPOCREDIT LLC",
+                  "key":"expocredit_llc"
+                }
+              },
+        {
+                "key":"account_proprietary_street_name",
+                "title":"Account Proprietary Street Name",
+                "details":{
+                  "title":"",
+                  "key":""
+                }
+              },
+        {
+                "key":"address_line",
+                "title":"Address line",
+                "details":{
+                  "title":"",
+                  "key":""
+                }
+              },
+        {
+                "key":"agent_member_id_iban",
+                "title":"Agent Member Id IBAN",
+                "details":{
+                  "title":"",
+                  "key":""
+                }
+              },
+        {
+                "key":"currency",
+                "title":"Currency",
+                "details":{
+                  "title":"",
+                  "key":""
+                }
+              },
+        {
+                "key":"reference_information",
+                "title":"Reference Information",
+                "details":{
+                  "title":"",
+                  "key":""
+                }
+              },
+        {
+                "key":"id_type",
+                "title":"Id Type",
+                "details":{
+                  "title":"",
+                  "key":""
+                }
+              },
+        {
+                "key":"id_value",
+                "title":"Id Value",
+                "details":{
+                  "title":"",
+                  "key":""
+                }
+              },
+        {
+                "key":"intermediary_fi_id_type",
+                "title":"Intermediary FI Id Type",
+                "details":{
+                  "title":"",
+                  "key":""
+                }
+              },
+        {
+                "key":"intermediary_fi_id_code",
+                "title":"Intermediary FI Id Code",
+                "details":{
+                  "title":"",
+                  "key":""
+                }
+              },
+        {
+                "key":"intermediary_fi_name",
+                "title":"Intermediary FI Name",
+                "details":{
+                  "title":"",
+                  "key":""
+                }
+              },
+        {
+                "key":"intermediary_fi_address",
+                "title":"Intermediary FI Address",
+                "details":{
+                  "title":"",
+                  "key":""
+                }
+              },
+        {
+                "key":"agent_id_type",
+                "title":"Agent Id Type",
+                "details":{
+                  "title":"",
+                  "key":""
+                }
+              },
+        {
+                "key":"agent_id_code",
+                "title":"Agent Id Code",
+                "details":{
+                  "title":"",
+                  "key":""
+                }
+              },
+        {
+                "key":"agent_address",
+                "title":"Agent Address",
+                "details":{
+                  "title":"",
+                  "key":""
+                }
+              }
+        ]
+        },
+        {
+            "title":"Debitor Details",
+                "key":"debitor_details",
+                "details":[
+                  {
+                    "key":"agent_name",
+                    "title":"Agent Name",
+                    "details":{
+                      "title":"Silver Bank",
+                      "key":"silver_bank"
+                    }
+                },
+                  {
+                    "key":"agent_account_id",
+                    "title":"Agent Account Id",
+                    "details":{
+                      "title":"",
+                      "key":""
+                    }
+                },
+             {
+                    "key":"account_id",
+                    "title":"Account Id",
+                    "details":{
+                      "title":"",
+                      "key":""
+                    }
+                },
+            {
+                    "key":"country_town_name",
+                    "title":"Country Town Name",
+                    "details":{
+                      "title":"",
+                      "key":""
+                    }
+                },
+            {
+                    "key":"customer_type",
+                    "title":"Customer Type",
+                    "details":{
+                      "title":"",
+                      "key":""
+                    }
+                },
+            {
+                    "key":"bic",
+                    "title":"BIC",
+                    "details":{
+                      "title":"",
+                      "key":""
+                    }
+                },
+            {
+                    "key":"remarks",
+                    "title":"Remarks",
+                    "details":{
+                      "title":"",
+                      "key":""
+                    }
+                },
+            {
+                    "key":"agent_bicfi",
+                    "title":"Agent BICFI",
+                    "details":{
+                      "title":"",
+                      "key":""
+                    }
+                },
+            {
+                    "key":"name",
+                    "title":"Name",
+                    "details":{
+                      "title":"Export Credit LLC",
+                      "key":"export_credit_llc"
+                    }
+                },
+            {
+                    "key":"account_proprietary_street_name",
+                    "title":"Account Proprietary Street Name",
+                    "details":{
+                      "title":"",
+                      "key":""
+                    }
+                },
+            {
+                    "key":"address_line",
+                    "title":"Address Line",
+                    "details":{
+                      "title":"",
+                      "key":""
+                    }
+                },
+            {
+                    "key":"agent_member_id_iban",
+                    "title":"Agent Member Id IBAN",
+                    "details":{
+                      "title":"",
+                      "key":""
+                    }
+                },
+            {
+                    "key":"currency",
+                    "title":"Currency",
+                    "details":{
+                      "title":"USD",
+                      "key":"usd"
+                    }
+                },
+            {
+                    "key":"amount",
+                    "title":"Amount",
+                    "details":{
+                      "title":"30,000",
+                      "key":"30k"
+                    }
+                },
+            {
+                    "key":"id_type",
+                    "title":"Id Type",
+                    "details":{
+                      "title":"D",
+                      "key":"d"
+                    }
+                },
+            {
+                    "key":"id_value",
+                    "title":"Id Value",
+                    "details":{
+                      "title":"9000197B0",
+                      "key":"9000197b0"
+                    }
+                },
+            
+            {
+                    "key":"instructing_fi_id_type",
+                    "title":"Instructing FI Id Type",
+                    "details":{
+                      "title":"F",
+                      "key":"f"
+                    }
+                },
+            {
+                    "key":"instructing_fi_id_code",
+                    "title":"Instructing FI Id Code",
+                    "details":{
+                      "title":"66105084",
+                      "key":"66105084"
+                    }
+                    },
+            {
+                    "key":"instructing_fi_name",
+                    "title":"Instructing FI Name",
+                    "details":{
+                      "title":"SILVER BANK",
+                      "key":"silver_bank"
+                    }
+                },
+            {
+                    "key":"instructing_fi_address",
+                    "title":"Instructing FI Address",
+                    "details":{
+                      "title":"SALT LAKE CITY",
+                      "key":"salt_lake_city"
+                    }
+                },
+            {
+                    "key":"agent_id_type",
+                    "title":"Agent Id Type",
+                    "details":{
+                      "title":"F",
+                      "key":"f"
+                    }
+                },
+            {
+                    "key":"agent_id_code",
+                    "title":"Agent Id Code",
+                    "details":{
+                      "title":"66105084",
+                      "key":"66105084"
+                    }
+                },
+            {
+                    "key":"agent_address",
+                    "title":"Agent Address",
+                    "details":{
+                      "title":"SALT LAKE CITY",
+                      "key":"salt_lake_city"
+                    }
+            
+                  
+            
+            }
+        ]
+    },
+    {
+        "title":"Additional Details",
+            "key":"batch-detail",
+            "details":[
+              {
+                "key":"batch_no",
+                "title":"Batch No",
+                "details":{
+                  "title":"",
+                  "key":""
+                }
+              }
+        ]
+        }
+       
+        
+
+],
+
+"breadcrumb": [
+    {
+        "/dashboard": "",
+        "title": "Homepage"
+    },
+    {
+        "/dashboard/out_fedwire/outboundFedwireOutgoing_ctr": "",
+        "title": "Outbound Fedwire Outgoing ctr"
+    },
+    {
+        "/dashboard/out_fedwire/outboundFedwireOutgoing_ctr/lvl1apprvl": "",
+        "title": "Level1 Approval"
+    },
+    {
+        "/dashboard/out_fedwire/outboundFedwireOutgoing_ctr/lvl1apprvl/detailpage": "",
+        "title": "Detail page"
+    }
+
+
+]
+    
+
+}

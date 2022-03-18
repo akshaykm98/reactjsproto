@@ -1,0 +1,23 @@
+.navBar {
+  padding: 0em 0em !important;
+  height: 65px;
+  background: #fff !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dashboardLayout {
+  @apply w-screen grid place-content-start;
+  min-height: 65px;
+  height: 65px;
+  width: 100vw;
+}
+.headerSider {
+  @apply bg-darkBlue flex items-center justify-center content-center;
+}
+.imsLogo {
+  display: grid;
+}
+.right {
+  @apply bg-white flex justify-end flex-wrap;
+}

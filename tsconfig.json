@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "importHelpers": true,
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "baseUrl": ".",
+    "paths": {
+      "@widgets/*": ["components/widgets/*"],
+      "@layouts/*": ["components/layouts/*"],
+      "@modules/*": ["components/modules/*"],
+      "@hooks/*": ["hooks/*"],
+      "@assets/*": ["assets/*"],
+      "@styles/*": ["styles/*"],
+      "@store/*": ["redux/*"],
+      "@moduleStyles/*": ["styles/modules/*"],
+      "@data/*": ["data/json/*"],
+      "@layoutsStyles/*": ["styles/layouts/*"]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "components/widgets/DynamicIcon.tsx"
+  ],
+  "exclude": ["node_modules"]
+}

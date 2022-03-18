@@ -1,0 +1,29 @@
+.card {
+    height: 300px;
+    width:370px;
+    list-style-type:none;
+    display: flex;
+    flex: 1;
+    float: left;
+    margin: 22.5px;
+   }
+   .card h1{
+       font-size: 20px;
+       color: grey;
+   }
+   .card p{
+       color: grey;
+   }
+   .container{
+       width:400px;
+       display: flex;
+   }
+   .icons{
+       flex:1;
+   }
+   .content{
+    flex:5;
+   }
+   .number{
+    flex:1;
+   }
